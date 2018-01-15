@@ -1,0 +1,28 @@
+{
+  "name": "bitcoinpricenotify",
+  "version": "1.0.0",
+  "description": "Notify's user of bitcoin price changes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teqnickels/bitcoinPriceNotify.git"
+  },
+  "keywords": [],
+  "author": "debrena mcewen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teqnickels/bitcoinPriceNotify/issues"
+  },
+  "homepage": "https://github.com/teqnickels/bitcoinPriceNotify#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.11",
+    "path": "^0.12.7"
+  }
+}
